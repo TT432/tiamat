@@ -1,6 +1,6 @@
 package io.github.tt432.tiamat;
 
-import net.minecraftforge.fml.common.Mod;
+import net.neoforged.fml.common.Mod;
 
 /**
  * @author TT432
