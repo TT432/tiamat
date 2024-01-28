@@ -1,0 +1,22 @@
+{
+	"format_version": "1.19.0",
+	"animation_controllers": {
+		"controller.animation.deovolente.idle": {
+			"initial_state": "low_speed",
+			"states": {
+				"low_speed": {
+					"animations": ["PoT_idle", "PoT_parallel_fly", "PoT_parallel_tail"],
+					"transitions": [
+						{"high_speed": "q.ground_speed > 1"}
+					]
+				},
+				"high_speed": {
+					"animations": ["PoT_idle", "PoT_parallel_tail", "PoT_parallel_fly_fast"],
+					"transitions": [
+						{"low_speed": "q.ground_speed < 1"}
+					]
+				}
+			}
+		}
+	}
+}

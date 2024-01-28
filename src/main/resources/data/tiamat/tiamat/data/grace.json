@@ -1,0 +1,15 @@
+{
+  "familiar_type": "FLIGHT",
+  "display": [
+    {
+      "name": "默认",
+      "render_type": "cutout",
+      "textures": [
+        "tiamat:entity/grace"
+      ],
+      "models": "tiamat:grace",
+      "animations": "tiamat:grace.animation",
+      "animation_controllers": "tiamat:grace.animation_controllers"
+    }
+  ]
+}
